@@ -6,68 +6,88 @@
 
 body{
 	line-height: 1;
+	font-family: Charlie Text,-apple-system,BlinkMacSystemFont
+	,Segoe UI,Roboto,Noto Sans,Ubuntu,Droid Sans,Helvetica Neue,sans-serif;
 }
 
 /* header container */
 .hd-wrapper{
-	background-color: #F4F5F7;
+	background-color: #ffc;
 	display: block;
 	margin: 0;
 	padding: 0;
-	height: 72px;
-	vertical-align: baseline;
-	overflow: visible;
-	/* placing left link */
-	line-height: 24px;    
+	height: 72px;  
 	position: relative;
 }
 
 /* header at the left side */
-.hd-le{
-
-}
 
 /* logo */
-img{
-	height: 24px;
-	width: 200px;
-}
-.hd-logo{
+
+.hd-logo img{
+	height: 40px;
 	display: inline-block;
 	float: left;
-	padding-left: 177px;
-	padding-top: 22px;
-	padding-right: 25px;
+	padding-left: 182px;
+	padding-top: 14px;
     width: 193px;
     vertical-align: text-bottom;
 }
 
 /* link */
+
+.arrow{
+	transform: rotate(55deg);
+    -webkit-transform: rotate(45deg);
+}
+
+i{
+	border: solid #0967C6;
+  	border-width: 0 1.19px 1.19px 0;
+  	display: inline-block;
+  	padding: 0.16em;
+  	margin-left: 7px;
+  	margin-bottom: 2.6px;
+}
+
+.lnk1 a{
+	display: block;
+}
+.lnk1 a:hover{
+	background-color: #ddd;
+	border-radius: 3px;
+	width: 90px;
+	height: 28px;
+}
+.lnk2 a:hover{
+	background-color: #ddd;
+}
+.lnk3 a:hover{
+	background-color: #ddd;
+}
+
 .hd-le-lnk{
-	padding: 25px;
+	padding: 27px 0;
 	font-size: 16px;
+	
 }
 
 .hd-le-lnk a{
 	text-decoration: none;
-	vertical-align: baseline;
 	float: left; 
 	color: #42526E;
-	padding-left: 5px;
-	font-family: Charlie Text,-apple-system,BlinkMacSystemFont
-	,Segoe UI,Roboto,Noto Sans,Ubuntu,Droid Sans,Helvetica Neue,sans-serif;
-	font-style: normal; 
+	margin-left: 28px;
+	padding-left: 2px;
+	font-size: 16px;
+	font-weight: 400;
 }
 
-a{
-	border: 0;
-
-}
 /* header at the right side */
 .hd-ri{
 	padding: 25px;
 	margin-top: -56px;
 }
+
 .hd-ri a{
 	text-decoration: none;
 	vertical-align: baseline;
@@ -75,6 +95,6 @@ a{
 	color: #42526E;
 	font-family: Charlie Text,-apple-system,BlinkMacSystemFont
 	,Segoe UI,Roboto,Noto Sans,Ubuntu,Droid Sans,Helvetica Neue,sans-serif;
-	font-size: 14px;
+	font-size: 15px;
 	padding-left: 10px;
 }
