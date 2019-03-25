@@ -307,13 +307,12 @@ body{
 	text-decoration: underline;
 }
 
-
 /* get start for free -------------------*/
 .get-start-blg{
 	background-color: #ddd;
 	height: 230px;
 	padding-top: 20px;
-	margin-top: 2750px;
+	margin-top: 2700px;
 	text-align: center;
 }
 .get-start-blg h{
@@ -339,11 +338,11 @@ body{
 
 /* Introducing the Atlassian Team Playbook */
 .itr-ply-bk{
-	margin-top: 50px; 
-	margin-left: 30px;
+	margin-top: 30px; 
+	margin-left: 40px;
 }
 .itr-plybk-img img{
-	width: 200px;
+	width: 180px;
 	margin-left: 15%;
 }
 /* move desc */
@@ -369,7 +368,7 @@ body{
 }
 /* Powering innovation at 125,000+ companies worldwi */
 .pwg-inv-cpn-ww{
-	margin-top: 115px;
+	margin-top: 60px;
 	font-size: 23px;
 	font-weight: 500;
 	color: #023049;
@@ -426,7 +425,7 @@ body{
 /* trigger */
 .blg-ply-logo img{
 	/* position: absolute; */
-	width: 130px;
+	width: 90px;
 	margin-left: 40px;
 	margin-top: 27px;
 }
@@ -437,7 +436,6 @@ body{
 }
 /* prof contains professor */
 .prof{
-	margin-top: -200px;
 	overflow: hidden;
 }
 .prof img{
@@ -521,6 +519,124 @@ body{
 	margin-bottom: 50px;
 }
 
+/* container enterprise */
+.Atlassian{
+	height: 1100px;
+}
+.enterprise{
+	background-color: #f1f1f1;
+	height: 420px;
+	/* text-align: left; */
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.enterprise img{
+	margin-left: 90px;
+	margin-top: 70px;
+	margin-bottom: 40px;
+}
+
+.enterprise h4{
+	margin-left: 10px;
+	color: #4a4a4a;
+	font-weight: 500;
+}
+.enterprise p{
+	line-height: 2;
+	margin-left: 10px;
+	font-size: 15px;
+	margin-top: 10px;
+}
+
+.market{
+	margin-top: 30px;
+	background-color: #f1f1f1;
+	height: 420px;
+	/* text-align: left; */
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.market img{
+	margin-left: 90px;
+	margin-top: 70px;
+	margin-bottom: 40px;
+	width: 90px;
+}
+
+.market h4{
+	margin-left: 10px;
+	color: #4a4a4a;
+	font-weight: 500;
+}
+.market p{
+	line-height: 2;
+	margin-left: 10px;
+	font-size: 15px;
+	margin-top: 10px;
+}
+
+.recomd {
+	text-align: center;
+	margin-top: -160px;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-bottom: 50px;
+}
+.recomd h2{
+	font-weight: 500;
+	margin-bottom: 10px;
+}
+.recomd p{
+	font-size: 20px;
+}
+
+.bk-container{
+	margin-left: 15px;
+}
+.bk-img img{
+	width: 40px;
+}
+.bk-cnt{
+	margin-top: -55px;
+	margin-bottom: 40px;
+	margin-left: 55px;
+	line-height: 2.5;
+}
+
+.thumb-container{
+	margin-left: 15px;
+	margin-right: 10px;
+}
+.thumb-img img{
+	width: 40px;
+}
+.thumb-cnt{
+	margin-top: -55px;
+	margin-bottom: 40px;
+	margin-left: 55px;
+	line-height: 2;
+}
+
+.ft-cnt{
+	height: 400px;
+	padding: 10px;
+	background-color: #f1f1f1;
+}
+
+.resc{
+	float: right;
+	margin-top: -175px;
+}
+
+.about{
+		float: right;
+		margin-top: -90px;
+}
+.epnd{
+	margin-top: 30px;
+}
 /* ipad----------------------------
 -------------------------
 ---------- */
@@ -534,7 +650,7 @@ body{
 	margin-left: 20px;
     width: 150px;
 }
-/* left header
+/* left header */
 .hd-le-lnk{
 	visibility: visible;
 	padding: 5px 0;
@@ -549,7 +665,7 @@ body{
 	padding: 5px 2px 5px 3px;
 	font-size: .810rem;
 }
-/* arrow */
+/* arrow*/
 .arrow{
 	transform: rotate(55deg);
     -webkit-transform: rotate(45deg);
