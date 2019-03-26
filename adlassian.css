@@ -607,7 +607,7 @@ i{
 
 /* video and image */
 
-/* .play-trigger{
+.play-trigger{
 	width: 370px;
 }
 
@@ -624,11 +624,12 @@ i{
 	letter-spacing: 0.6px;
 	border: 1px solid #ddd;
 
-} */
+}
 /* prof contains professor */
-/* 
+
 .prof{
 	overflow: hidden;
+	margin-top: 1000px;
 }
 .prof img{
 	width: 370px;
@@ -646,9 +647,9 @@ i{
 	position: absolute;
 	margin-left: 150px;
 	margin-top: 90px;
-} */
+}
 
-/* traingle  right arrow*//* 
+/* traingle  right arrow */
 .trg-arrow p{
 	border-top: 3.5px solid transparent;
 	border-left: 5.5px solid #FFF;
@@ -656,9 +657,9 @@ i{
 	position: absolute;
 	margin-left: 9.3px;
 	border-bottom: 3.5px solid transparent;
-} */
+}
 /* circle */
-/* .trg-arrow {
+.trg-arrow {
 	width: 22px;
 	height: 22px;
 	border-radius: 50%;
@@ -667,18 +668,18 @@ i{
 
 .trg-arrow:hover{
 	background-color: #3274e3;
-} */
+}
 
 /* chang hover color on link */
-/* .learn-lnk:hover{
+.learn-lnk:hover{
 	color: #4c85e7;
-} */
+}
 
 /* chang position of watch link */
-/* .watch-para{
+.watch-para{
 	margin-top: -20px;
 	margin-left: 29px;
-} */
+}
 
 
 
