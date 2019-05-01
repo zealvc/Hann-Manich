@@ -1,0 +1,460 @@
+body{
+	margin: 0;
+	padding: 0;
+	color: #451400;
+	font-family:"Nunito","Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+	font-size: 1rem;
+	background-color: #fff;
+	height: 10000px;
+}
+	a{
+	text-decoration: none;
+}
+
+/* header with arrow */
+.header{
+	padding: 10px 73px;
+	background-color: #451400;
+}
+.get-app{
+	color: #fff;
+	text-transform: uppercase;
+	font-size: .500rem;
+	word-spacing: 1.5px;
+	letter-spacing: -1px;
+	margin-right: 0px;
+}
+/* arrow */
+.arrow-down {
+  float: right;
+  margin-top: -38px;
+  width: 32px;
+  height: 32px;
+  background: #60321f;
+  position: relative;
+  border-radius: 50%;
+}
+.arrow-down.active {
+  background: #60321f;
+
+}
+.arrow-down:before, .arrow-down:after {
+  content: "";
+  display: block;
+  width: 9.5px;
+  height: 3px;
+  background: white;
+  position: absolute;
+  top: 15.8px;
+  transition: transform .5s;
+}
+
+.arrow-down:before {
+  right: 13.8px;
+  transform: rotate(45deg);
+   border-bottom-left-radius: 50%;
+   border-top-right-radius: 30%;
+   border-top-left-radius: 0%;
+   border-bottom-right-radius: 30%;
+}
+
+.arrow-down:after {
+  right: 8.4px;
+  border-top-left-radius: 30%;
+  border-bottom-left-radius: 30%;
+  border-top-right-radius: 0%;
+  border-bottom-right-radius: 50%;
+  transform: rotate(-45deg);
+}
+
+.arrow-down.active:before {
+  transform: rotate(-45deg);
+  border-top-left-radius: 30%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 30%;
+  border-bottom-right-radius: 50%;
+}
+
+.arrow-down.active:after {
+  transform: rotate(45deg);
+   border-bottom-left-radius: 50%;
+   border-top-right-radius:30%;
+   border-top-left-radius: 30%;
+   border-bottom-right-radius: 0%;
+}
+
+/* fix header bar */
+.header-bar{
+	position: sticky;
+	background-color: white;
+	top: 0;
+	z-index: 1;
+	height: 60px;
+	border-bottom: 0.02px solid #b1a8a8;
+}
+/* humberger menu */
+.header-bar .humg-icon{
+	float: left;
+	margin-top: 15px;
+}
+.header-bar .humg{
+	  width: 23px;
+	  height: 1.7px;
+	  border-radius: 30px;
+	  background-color:black;
+	  margin: 5.5px 9px;
+}
+.header-bar .hum{
+  width: 13px;
+  height: 2px;
+  border-radius: 10px;
+  background-color:black;
+  margin: 6px 9px;
+}
+
+/* logo left header */
+.header-bar .logo img{
+	width: 50px;
+	margin: 5px;
+}
+/* right header */
+.header-bar .find{
+	margin-right: 10px;
+	/* position: sticky;
+	top: 50px; */
+	float: right;
+	margin-top: -53px;
+	background-color: #451400;
+	text-align: center;
+	width: 181px;
+	height: 37px;
+	display: flex;
+	border-radius: 30px;
+	text-decoration: none;
+}
+.slash{
+	border-left: 1px solid #fff;
+	height: 21px;
+	margin-left: 33px;
+	margin-top: -44px;
+}
+.slash p{
+	visibility: hidden;
+	/* margin-left: 10px; */
+}
+.find img{
+ 	width: 26px;
+ 	margin-top: 5px;
+ 	margin-right: 5px;
+}
+.find-lt{
+	color: #fff;
+	font-size: .700rem;
+	font-weight: 600;
+	letter-spacing: 1.5px;
+	margin-top: 12px;
+	text-transform: uppercase;
+}
+
+/* container chiptole rewards */
+.container{
+	position: absolute;
+}
+.rwd-cmp img{
+	object-fit: cover;
+	height: 280px;
+	width: 375px;
+	object-position: 100% 22%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 8px;
+	display: block;
+}
+
+/* order and earn */
+.order-earn{
+	margin-top: 0px;
+	display: block;
+}
+.earn{
+	background-color: #a60909;
+	color: white;
+	padding: 4.8px;
+	text-align: center;
+	margin-left: 15px;
+	margin-right: 190px;
+}
+.order{
+	background-color: #760606;
+	color: white;
+	padding: 6.2px 37px;
+	margin-top: -63px;
+	text-align: center;
+	font-weight: 600;
+	margin-right: 15px;
+	float: right;
+}
+/* choice */
+.choice{
+	display: flex;
+	margin-top: 400px;
+}
+.img-bg-choice{
+	line-height: 0.5;
+}
+.img-bg-choice img{
+	object-fit: none;
+	width: 375px;
+	height:155px;
+	object-position: 0% 0%;
+}
+.img-bg-choice p{
+	margin-top: -100px;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 21px;
+	text-align: center;
+	word-spacing: -0.3px;
+}
+/* select class */
+.select{
+	text-transform: uppercase;
+	color: #b38a08;
+	font-weight: 600;
+	font-size: 20px;
+	margin-left: 45px;
+}
+/* arrow */
+.arrow {
+  float: right;
+  margin-top: -14px;
+  margin-right: 30px;
+  width: 32px;
+  height: 32px;
+  position: relative;
+  border-radius: 50%;
+}
+.arrow:before, .arrow:after {
+  content: "";
+  display: block;
+  width: 12px;
+  height: 3px;
+  background: #b38a08;
+  position: absolute;
+  top: 15.8px;
+  transition: transform .5s;
+}
+.arrow:before {
+  right: 14.8px;
+  transform: rotate(45deg);
+   border-bottom-right-radius: 30%;
+}
+.arrow:after {
+  right: 8.4px;
+  transform: rotate(-45deg);
+}
+
+.line{
+	border-bottom: 1.3px solid #450404;
+	margin-top: 7px;
+	width: 300px;
+	opacity: 0.6;
+}
+
+.q-mark{
+	margin-left: 348px;
+	margin-top: -19px;
+	display: flex;
+	font-weight: 600;
+	font-size: 20px;
+}
+
+
+/* go plant powered */
+.go-fst{
+	border: 1px solid #ddd;
+	margin: 27px;
+	margin-top: 68px;
+	padding-bottom: 20px;
+	padding-left: 1px;
+}
+.go-fst img{
+	width: 317px;
+}
+.go-fst h2{
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 22px;
+	margin-left: 20px;
+	letter-spacing: 0.1px;
+}
+.go-fst p{
+	margin-left: 20px;
+	font-size: 12px;
+	line-height: 1.7;
+	opacity: 0.8;
+	width: 290px;
+}
+.order-now div{
+	text-transform: uppercase;
+	font-weight: 700;
+	background-color: #451400;
+	font-size: 14px;
+	width: 274px;
+	color: white;
+	text-align: center;
+	padding-top: 8px;
+	margin-left: 20px;
+	padding-bottom: 8px;
+}
+
+/* first taste of free */
+.first-taste{
+	border: 1px solid #ddd;
+	margin: 27px;
+	margin-top: 68px;
+	padding-bottom: 20px;
+	padding-left: 1px;
+}
+.first-taste img{
+	width: 317px;
+}
+.first-taste h2{
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 22px;
+	margin-left: 20px;
+	letter-spacing: 0.1px;
+}
+.first-taste p{
+	margin-left: 20px;
+	font-size: 12px;
+	line-height: 1.7;
+	opacity: 0.8;
+	width: 290px;
+}
+
+/* guacamole for real */
+.gua-cnt{
+	display: block;
+	margin: 2% 8%;
+}
+.gua-cnt h1{
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 36px;
+	text-align: center;
+	letter-spacing: 0.1px;
+}
+.gua-cnt img{
+	margin-bottom: -20px;
+	width: 300px;
+	margin-left: 10px;
+	margin-top: 5px;
+}
+.real img{
+	margin-bottom: 15px;
+	width: 210px;
+	margin-left: 50px;
+	margin-top: -28px;
+}
+.gua-cnt p{
+	font-weight: 600;
+	text-align: center;
+	font-size: 14px;
+	line-height: 1.7;
+	opacity: 0.8;
+	width: 318px;
+}
+.gua-cnt h4{
+	font-weight: 300;
+	font-size: 14.5px;
+	text-align: center;
+	line-height: 1.7;
+	opacity: 0.8;
+	width: 290px;
+}
+/* check for our value */
+.check-us div{
+	display: block;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 700;
+	border: 2px solid black;
+	font-size: 16px;
+	width: 290px;
+	color: #451400;
+	opacity: 0.8;
+	text-align: center;
+	padding-top: 8px;
+	margin-left: 6px;
+	padding-bottom: 8px;
+}
+
+/* gifts and gear */
+.gift-gear{
+	border: 1px solid #ddd;
+	margin: 27px;
+	margin-top: 50px;
+	padding-bottom: 20px;
+	padding-left: 1px;
+}
+.gift-gear img{
+	filter: brightness(60%);
+	width: 317px;
+	object-fit: cover;
+	height: 195px;
+}
+.gift-gear h2{
+	filter: brightness(100%);
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 35px;
+	margin-top: -120px;
+	margin-bottom: 100px;
+	color: white;
+	text-align: center;
+	letter-spacing: 0.1px;
+}
+.gift-gear p{
+	margin-left: 20px;
+	font-size: 13px;
+	line-height: 1.7;
+	opacity: 0.8;
+	width: 290px;
+}
+
+/* fundraising */
+.fun{
+	border: 1px solid #ddd;
+	margin: 27px;
+	margin-top: 30px;
+	padding-bottom: 20px;
+	padding-left: 1px;
+}
+.fun img{
+	width: 317px;
+	filter: brightness(60%);
+	object-fit: cover;
+	height: 195px;
+}
+.fun h2{
+	filter: brightness(100%);
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 35px;
+	margin-top: -120px;
+	margin-bottom: 100px;
+	color: white;
+	text-align: center;
+	letter-spacing: 0.1px;
+}
+.fun p{
+	margin-left: 20px;
+	font-size: 13px;
+	line-height: 1.7;
+	opacity: 0.8;
+	width: 290px;
+}
+
+/* find a chipotle */
